@@ -18,41 +18,42 @@ Licence URI: https://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- Top Background Image Wrapper -->
-<div class="bgded overlay" style="background-image:url('images/demo/backgrounds/01.png');"> 
+<div class="bgded overlay" style="position:absolute; top: 0; width: 100%; height: 100%; z-index: -1; overflow: hidden;"> 
   <!-- ################################################################################################ -->
-  <div class="wrapper row1">
+  <video autoplay loop muted playsinline src="images/vid.mp4"></video>
+</div>
+  <div class="wrapper row1" style="background-color: rgba(0,0,0, 0.8);">
     <header id="header" class="hoc clear"> 
       <!-- ################################################################################################ -->
-      <div id="logo" class="fl_left">
-        <h1><a href="index.html">Nathan Juan</a></h1>
-      </div>
       <nav id="mainav" class="fl_right">
         <ul class="clear">
           <li class="active"><a href="index.html">Home</a></li>
-          <li><a class="drop" href="#">Pages</a>
-            <ul>
-              <li><a href="pages/gallery.html">Gallery</a></li>
-              <li><a href="pages/full-width.html">Full Width</a></li>
-              <li><a href="pages/sidebar-left.html">Sidebar Left</a></li>
-              <li><a href="pages/sidebar-right.html">Sidebar Right</a></li>
-              <li><a href="pages/basic-grid.html">Basic Grid</a></li>
-            </ul>
-          </li>
-          <li><a class="drop" href="#">Dropdown</a>
-            <ul>
-              <li><a href="#">Level 2</a></li>
-              <li><a class="drop" href="#">Level 2 + Drop</a>
-                <ul>
-                  <li><a href="#">Level 3</a></li>
-                  <li><a href="#">Level 3</a></li>
-                  <li><a href="#">Level 3</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Level 2</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Link Text</a></li>
-          <li><a href="#">Link Text</a></li>
+          <div style="display: none;">
+            <li><a class="drop" href="#">Pages</a>
+              <ul>
+                <li><a href="pages/gallery.html">Gallery</a></li>
+                <li><a href="pages/full-width.html">Full Width</a></li>
+                <li><a href="pages/sidebar-left.html">Sidebar Left</a></li>
+                <li><a href="pages/sidebar-right.html">Sidebar Right</a></li>
+                <li><a href="pages/basic-grid.html">Basic Grid</a></li>
+              </ul>
+            </li>
+            <li><a class="drop" href="#">Dropdown</a>
+              <ul>
+                <li><a href="#">Level 2</a></li>
+                <li><a class="drop" href="#">Level 2 + Drop</a>
+                  <ul>
+                    <li><a href="#">Level 3</a></li>
+                    <li><a href="#">Level 3</a></li>
+                    <li><a href="#">Level 3</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Level 2</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Link Text</a></li>
+            <li><a href="#">Link Text</a></li>
+          </div>
         </ul>
       </nav>
       <!-- ################################################################################################ -->
@@ -63,15 +64,11 @@ Licence URI: https://www.os-templates.com/template-terms
   <!-- ################################################################################################ -->
   <div id="pageintro" class="hoc clear"> 
     <!-- ################################################################################################ -->
-    <article>
-      <h2 class="heading">Hi! I'm Nathan.</h2>
-      <p>I'm an EECS student at UC Berkeley, planning on graduating in 2024. Here are some cool projects I've worked on. Feel free to contact me!</p>
-      <footer>
-        <ul class="nospace inline pushright">
-          <li><a class="btn" href="#">Email</a></li>
-          <li><a class="btn inverse" href="#">Ultrices posuere</a></li>
-        </ul>
-      </footer>
+    <article style="box-shadow: 0px 0px 3px rgba(0,0,0, 0.65);background-color: rgba(0,0,0, 0.65); padding: 15px;">
+      <h2 class="heading">Greetings! I'm Nathan Juan.</h2>
+      </br>
+      <p>I'm a second-year Electrical Engineering and Computer Science student at University of California, Berkeley exploring how software and intelligent systems can change the world.</p>
+      
     </article>
     <!-- ################################################################################################ -->
   </div>
@@ -86,53 +83,9 @@ Licence URI: https://www.os-templates.com/template-terms
     <!-- main body -->
     <!-- ################################################################################################ -->
     <div class="center btmspace-50">
-      <h3 class="font-x2 nospace">Cubilia curae proin ligula</h3>
-      <p class="nospace">Leo dui a tincidunt euismod tellus vivamus facilisis lectus cursus <a href="#">laoreet auctor</a>.</p>
+      <h3 class="font-x2 nospace">About Me</h3>
+      <p style="font-family: monospace;">work in progress...</p>
     </div>
-    <ul class="nospace group services">
-      <li class="one_third first">
-        <article><a href="#"><i class="fa fa-paperclip"></i></a>
-          <h6 class="heading">Duis dapibus lacus</h6>
-          <p>Eu sem dignissim sed placerat ex rutrum phasellus at rhoncus quam mauris sit amet libero&hellip;</p>
-          <footer><a href="#">View Details &raquo;</a></footer>
-        </article>
-      </li>
-      <li class="one_third">
-        <article><a href="#"><i class="fa fa-calculator"></i></a>
-          <h6 class="heading">Ullamcorper ornare</h6>
-          <p>Rhoncus nullam at varius augue nam fringilla nunc ac orci ornare posuere suspendisse dictum lacus&hellip;</p>
-          <footer><a href="#">View Details &raquo;</a></footer>
-        </article>
-      </li>
-      <li class="one_third">
-        <article><a href="#"><i class="fa fa-pie-chart"></i></a>
-          <h6 class="heading">Posuere fusce sit</h6>
-          <p>Amet odio sit amet augue pharetra pulvinar at quis justo in lacinia pretium posuere nunc&hellip;</p>
-          <footer><a href="#">View Details &raquo;</a></footer>
-        </article>
-      </li>
-      <li class="one_third first">
-        <article><a href="#"><i class="fa fa-recycle"></i></a>
-          <h6 class="heading">Tempus vel risus</h6>
-          <p>Mollis lobortis sapien nullam elementum dignissim eleifend nunc lobortis aliquet curabitur&hellip;</p>
-          <footer><a href="#">View Details &raquo;</a></footer>
-        </article>
-      </li>
-      <li class="one_third">
-        <article><a href="#"><i class="fa fa-code-fork"></i></a>
-          <h6 class="heading">Nec ultrices ipsum</h6>
-          <p>Maximus ut in semper nibh at mattis condimentum odio dui neque sit amet vulputate arcu vitae nibh&hellip;</p>
-          <footer><a href="#">View Details &raquo;</a></footer>
-        </article>
-      </li>
-      <li class="one_third">
-        <article><a href="#"><i class="fa fa-cogs"></i></a>
-          <h6 class="heading">Fringilla viverra</h6>
-          <p>Rutrum in gravida efficitur diam vel porta odio cursus eu aliquam amet nunc interdum malesuada&hellip;</p>
-          <footer><a href="#">View Details &raquo;</a></footer>
-        </article>
-      </li>
-    </ul>
     <!-- ################################################################################################ -->
     <!-- / main body -->
     <div class="clear"></div>
@@ -141,168 +94,170 @@ Licence URI: https://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper">
-  <div class="split clear" style="background-image:url('images/demo/backgrounds/02.png');">
-    <section class="box"> 
+<div style="visibility: hidden; display: none;">
+  <div class="wrapper">
+    <div class="split clear" style="background-image:url('images/demo/backgrounds/02.png');">
+      <section class="box"> 
+        <!-- ################################################################################################ -->
+        <div class="btmspace-50">
+          <p class="nospace"><a href="#">Ipsum primis in faucibus</a></p>
+          <h2 class="heading">Quisque venenatis eleifend</h2>
+        </div>
+        <div class="testimonial">
+          <figure class="clear"><img src="images/demo/60x60.png" alt="">
+            <figcaption><strong>A.Doe</strong><br>
+              <em>Position, Company Name</em></figcaption>
+          </figure>
+          <blockquote>Enim eget aliquam ex porta in donec in turpis mollis ultricies risus quis varius velit aenean pretium consectetur finibus maecenas magna arcu consectetur sit amet nisi quis consectetur faucibus augue morbi iaculis elit vel dui viverra porta mauris.</blockquote>
+        </div>
+        <!-- ################################################################################################ -->
+      </section>
+    </div>
+  </div>
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <div class="wrapper row3">
+    <div class="hoc container clear"> 
       <!-- ################################################################################################ -->
-      <div class="btmspace-50">
-        <p class="nospace"><a href="#">Ipsum primis in faucibus</a></p>
-        <h2 class="heading">Quisque venenatis eleifend</h2>
+      <div class="center btmspace-50">
+        <h3 class="font-x2 nospace">Vitae diam pellentesque</h3>
+        <p class="nospace">Fermentum nulla cursus porttitor imperdiet suspendisse vel diam dui mauris <a href="#">faucibus sed</a>.</p>
       </div>
-      <div class="testimonial">
-        <figure class="clear"><img src="images/demo/60x60.png" alt="">
-          <figcaption><strong>A.Doe</strong><br>
-            <em>Position, Company Name</em></figcaption>
-        </figure>
-        <blockquote>Enim eget aliquam ex porta in donec in turpis mollis ultricies risus quis varius velit aenean pretium consectetur finibus maecenas magna arcu consectetur sit amet nisi quis consectetur faucibus augue morbi iaculis elit vel dui viverra porta mauris.</blockquote>
+      <ul class="nospace group elements">
+        <li class="one_third first">
+          <figure><img src="images/demo/320x240.png" alt="">
+            <figcaption><a href="#">Gravida</a></figcaption>
+          </figure>
+        </li>
+        <li class="one_third">
+          <figure><img src="images/demo/320x240.png" alt="">
+            <figcaption><a href="#">Elementum</a></figcaption>
+          </figure>
+        </li>
+        <li class="one_third">
+          <figure><img src="images/demo/320x240.png" alt="">
+            <figcaption><a href="#">Vehicula</a></figcaption>
+          </figure>
+        </li>
+        <li class="one_third first">
+          <figure><img src="images/demo/320x240.png" alt="">
+            <figcaption><a href="#">Scelerisque</a></figcaption>
+          </figure>
+        </li>
+        <li class="one_third">
+          <figure><img src="images/demo/320x240.png" alt="">
+            <figcaption><a href="#">Pharetra</a></figcaption>
+          </figure>
+        </li>
+        <li class="one_third">
+          <figure><img src="images/demo/320x240.png" alt="">
+            <figcaption><a href="#">Ullamcorper</a></figcaption>
+          </figure>
+        </li>
+      </ul>
+      <!-- ################################################################################################ -->
+      <div class="clear"></div>
+    </div>
+  </div>
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <div class="wrapper coloured">
+    <div id="social" class="hoc clear"> 
+      <!-- ################################################################################################ -->
+      <div class="one_half first">
+        <h6 class="title">Social Media</h6>
+        <ul class="faico clear">
+          <li><a class="faicon-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a class="faicon-pinterest" href="#"><i class="fa fa-pinterest"></i></a></li>
+          <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a class="faicon-dribble" href="#"><i class="fa fa-dribbble"></i></a></li>
+          <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+          <li><a class="faicon-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+          <li><a class="faicon-vk" href="#"><i class="fa fa-vk"></i></a></li>
+          <li><a class="faicon-youtube" href="#"><i class="fa fa-youtube"></i></a></li>
+          <li><a class="faicon-rss" href="#"><i class="fa fa-rss"></i></a></li>
+        </ul>
+      </div>
+      <div class="one_half">
+        <h6 class="title">Newsletter sign-up</h6>
+        <form class="clear" method="post" action="#">
+          <fieldset>
+            <legend>Newsletter:</legend>
+            <input type="text" value="" placeholder="Type Email Here&hellip;">
+            <button class="fa fa-share" type="submit" title="Submit"><em>Submit</em></button>
+          </fieldset>
+        </form>
       </div>
       <!-- ################################################################################################ -->
-    </section>
+    </div>
   </div>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper row3">
-  <div class="hoc container clear"> 
-    <!-- ################################################################################################ -->
-    <div class="center btmspace-50">
-      <h3 class="font-x2 nospace">Vitae diam pellentesque</h3>
-      <p class="nospace">Fermentum nulla cursus porttitor imperdiet suspendisse vel diam dui mauris <a href="#">faucibus sed</a>.</p>
-    </div>
-    <ul class="nospace group elements">
-      <li class="one_third first">
-        <figure><img src="images/demo/320x240.png" alt="">
-          <figcaption><a href="#">Gravida</a></figcaption>
-        </figure>
-      </li>
-      <li class="one_third">
-        <figure><img src="images/demo/320x240.png" alt="">
-          <figcaption><a href="#">Elementum</a></figcaption>
-        </figure>
-      </li>
-      <li class="one_third">
-        <figure><img src="images/demo/320x240.png" alt="">
-          <figcaption><a href="#">Vehicula</a></figcaption>
-        </figure>
-      </li>
-      <li class="one_third first">
-        <figure><img src="images/demo/320x240.png" alt="">
-          <figcaption><a href="#">Scelerisque</a></figcaption>
-        </figure>
-      </li>
-      <li class="one_third">
-        <figure><img src="images/demo/320x240.png" alt="">
-          <figcaption><a href="#">Pharetra</a></figcaption>
-        </figure>
-      </li>
-      <li class="one_third">
-        <figure><img src="images/demo/320x240.png" alt="">
-          <figcaption><a href="#">Ullamcorper</a></figcaption>
-        </figure>
-      </li>
-    </ul>
-    <!-- ################################################################################################ -->
-    <div class="clear"></div>
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <div class="wrapper row4">
+    <footer id="footer" class="hoc clear"> 
+      <!-- ################################################################################################ -->
+      <div class="one_third first">
+        <h6 class="title">Quam aliquam ac</h6>
+        <p>Molestie metus non pharetra felis donec volutpat molestie ligula imperdiet laoreet dolor scelerisque eu nunc aliquet tortor erat ut tempus justo tristique.</p>
+        <p>Condimentum vivamus tempus nisi et augue fringilla aliquet mauris scelerisque sollicitudin justo non posuere nunc mollis facilisis purus imperdiet aliquet nisi consectetur et phasellus.</p>
+      </div>
+      <div class="one_third">
+        <h6 class="title">Morbi ullamcorper</h6>
+        <ul class="nospace linklist contact">
+          <li><i class="fa fa-map-marker"></i>
+            <address>
+            Street Name &amp; Number, Town, Postcode/Zip
+            </address>
+          </li>
+          <li><i class="fa fa-phone"></i> +00 (123) 456 7890</li>
+          <li><i class="fa fa-fax"></i> +00 (123) 456 7890</li>
+          <li><i class="fa fa-envelope-o"></i> info@domain.com</li>
+        </ul>
+      </div>
+      <div class="one_third">
+        <h6 class="title">Finibus mauris</h6>
+        <ul class="nospace linklist">
+          <li>
+            <article>
+              <h2 class="nospace font-x1"><a href="#">Suscipit mauris nunc</a></h2>
+              <time class="font-xs block btmspace-10" datetime="2045-04-06">Friday, 6<sup>th</sup> April 2045</time>
+              <p class="nospace">Euismod leo pulvinar a aenean vehicula varius eros convallis sagittis integer&hellip;</p>
+            </article>
+          </li>
+          <li>
+            <article>
+              <h2 class="nospace font-x1"><a href="#">Eros magna sed</a></h2>
+              <time class="font-xs block btmspace-10" datetime="2045-04-05">Thursday, 5<sup>th</sup> April 2045</time>
+              <p class="nospace">Posuere donec posuere elit condimentum aliquet eget eu elit sed eget massa&hellip;</p>
+            </article>
+          </li>
+        </ul>
+      </div>
+      <!-- ################################################################################################ -->
+    </footer>
   </div>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper coloured">
-  <div id="social" class="hoc clear"> 
-    <!-- ################################################################################################ -->
-    <div class="one_half first">
-      <h6 class="title">Social Media</h6>
-      <ul class="faico clear">
-        <li><a class="faicon-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-        <li><a class="faicon-pinterest" href="#"><i class="fa fa-pinterest"></i></a></li>
-        <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-        <li><a class="faicon-dribble" href="#"><i class="fa fa-dribbble"></i></a></li>
-        <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-        <li><a class="faicon-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
-        <li><a class="faicon-vk" href="#"><i class="fa fa-vk"></i></a></li>
-        <li><a class="faicon-youtube" href="#"><i class="fa fa-youtube"></i></a></li>
-        <li><a class="faicon-rss" href="#"><i class="fa fa-rss"></i></a></li>
-      </ul>
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <div class="wrapper row5">
+    <div id="copyright" class="hoc clear"> 
+      <!-- ################################################################################################ -->
+      <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="#">Domain Name</a></p>
+      <p class="fl_right">Template by <a target="_blank" href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+      <!-- ################################################################################################ -->
     </div>
-    <div class="one_half">
-      <h6 class="title">Newsletter sign-up</h6>
-      <form class="clear" method="post" action="#">
-        <fieldset>
-          <legend>Newsletter:</legend>
-          <input type="text" value="" placeholder="Type Email Here&hellip;">
-          <button class="fa fa-share" type="submit" title="Submit"><em>Submit</em></button>
-        </fieldset>
-      </form>
-    </div>
-    <!-- ################################################################################################ -->
   </div>
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+  <!-- JAVASCRIPTS -->
+  <script src="layout/scripts/jquery.min.js"></script>
+  <script src="layout/scripts/jquery.backtotop.js"></script>
+  <script src="layout/scripts/jquery.mobilemenu.js"></script>
 </div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper row4">
-  <footer id="footer" class="hoc clear"> 
-    <!-- ################################################################################################ -->
-    <div class="one_third first">
-      <h6 class="title">Quam aliquam ac</h6>
-      <p>Molestie metus non pharetra felis donec volutpat molestie ligula imperdiet laoreet dolor scelerisque eu nunc aliquet tortor erat ut tempus justo tristique.</p>
-      <p>Condimentum vivamus tempus nisi et augue fringilla aliquet mauris scelerisque sollicitudin justo non posuere nunc mollis facilisis purus imperdiet aliquet nisi consectetur et phasellus.</p>
-    </div>
-    <div class="one_third">
-      <h6 class="title">Morbi ullamcorper</h6>
-      <ul class="nospace linklist contact">
-        <li><i class="fa fa-map-marker"></i>
-          <address>
-          Street Name &amp; Number, Town, Postcode/Zip
-          </address>
-        </li>
-        <li><i class="fa fa-phone"></i> +00 (123) 456 7890</li>
-        <li><i class="fa fa-fax"></i> +00 (123) 456 7890</li>
-        <li><i class="fa fa-envelope-o"></i> info@domain.com</li>
-      </ul>
-    </div>
-    <div class="one_third">
-      <h6 class="title">Finibus mauris</h6>
-      <ul class="nospace linklist">
-        <li>
-          <article>
-            <h2 class="nospace font-x1"><a href="#">Suscipit mauris nunc</a></h2>
-            <time class="font-xs block btmspace-10" datetime="2045-04-06">Friday, 6<sup>th</sup> April 2045</time>
-            <p class="nospace">Euismod leo pulvinar a aenean vehicula varius eros convallis sagittis integer&hellip;</p>
-          </article>
-        </li>
-        <li>
-          <article>
-            <h2 class="nospace font-x1"><a href="#">Eros magna sed</a></h2>
-            <time class="font-xs block btmspace-10" datetime="2045-04-05">Thursday, 5<sup>th</sup> April 2045</time>
-            <p class="nospace">Posuere donec posuere elit condimentum aliquet eget eu elit sed eget massa&hellip;</p>
-          </article>
-        </li>
-      </ul>
-    </div>
-    <!-- ################################################################################################ -->
-  </footer>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper row5">
-  <div id="copyright" class="hoc clear"> 
-    <!-- ################################################################################################ -->
-    <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="#">Domain Name</a></p>
-    <p class="fl_right">Template by <a target="_blank" href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
-    <!-- ################################################################################################ -->
-  </div>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
-<!-- JAVASCRIPTS -->
-<script src="layout/scripts/jquery.min.js"></script>
-<script src="layout/scripts/jquery.backtotop.js"></script>
-<script src="layout/scripts/jquery.mobilemenu.js"></script>
 </body>
 </html>
