@@ -2,85 +2,19 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Nathan Juan</title>
+  <title>loading...</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <meta name="description" content="Nathan Juan — Electrical Engineering and Computer Science at UC Berkeley.">
   <meta name="theme-color" content="#263b22">
   <link rel="stylesheet" href="layout/styles/meadow.css">
 </head>
 <body id="top" data-mood="0">
-  <!-- Full-bleed 120Hz Soft Painterly & Photorealistic Bird's-Eye Meadow Canvas -->
   <canvas id="meadow-canvas" aria-hidden="true"></canvas>
 
-  <!-- Poetic Gallery Foreground Shell (leaves ~84% of viewport open to the living meadow) -->
-  <div class="site-shell">
-    <header class="top-nav">
-      <a class="brand-mark" href="#top">
-        <span class="brand-seed" aria-hidden="true"></span>
-        <span>Nathan Juan</span>
-      </a>
-      <nav aria-label="Primary">
-        <ul class="nav-links">
-          <li><a class="active" href="#top">Home</a></li>
-          <li><a href="#about">About</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <main>
-      <section class="hero-corridor" aria-labelledby="hero-heading">
-        <article class="editorial-card">
-          <p class="kicker">UC Berkeley &middot; EECS</p>
-          <h1 id="hero-heading" class="editorial-title">Greetings! I&rsquo;m Nathan Juan.</h1>
-          <p class="editorial-copy">
-            I&rsquo;m a second-year Electrical Engineering and Computer Science student at University of California, Berkeley exploring how software and intelligent systems can change the world.
-          </p>
-          <div class="gesture-caption">
-            <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
-              <path d="M8 13V3M8 3L4.5 6.5M8 3L11.5 6.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-            <span>Swipe or scroll softly to breathe wind across the meadow</span>
-          </div>
-        </article>
-      </section>
-
-      <section id="about" class="about-corridor" aria-labelledby="about-heading">
-        <article class="editorial-card">
-          <p class="kicker">Field Notes</p>
-          <h2 id="about-heading" class="section-title">About Me</h2>
-          <p class="mono-note">work in progress...</p>
-        </article>
-      </section>
-    </main>
-  </div>
-
-  <!-- Whisper-Soft Floating Meadow Atmosphere Controls -->
-  <aside class="hud-bar" aria-label="Meadow atmosphere controls">
-    <div class="hud-group">
-      <button id="aura-preset-btn" class="hud-pill" type="button" title="Cycle painterly light &amp; film mood">
-        <span>Light:</span>
-        <span id="aura-preset-name" class="accent">Morning Reverie</span>
-      </button>
-      <button id="gust-pulse-btn" class="hud-pill" type="button" title="Send a soft breeze across the hillside">
-        Gentle Gust
-      </button>
-      <button id="zen-toggle-btn" class="hud-pill" type="button" aria-pressed="false" title="Hide cards to immerse in the meadow (Shortcut: Z)">
-        Pure Meadow
-      </button>
+  <main class="site-shell">
+    <div class="loading-box" role="status" aria-live="polite">
+      <p class="mono-note">loading...</p>
     </div>
-
-    <div class="hud-group">
-      <button id="sound-toggle-btn" class="hud-pill" type="button" aria-pressed="false" title="Toggle soft wind &amp; grass rustle audio">
-        <svg width="22" height="14" viewBox="0 0 22 14" fill="none" aria-hidden="true">
-          <path id="sound-wave-path" d="M 1 7 L 21 7" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-        <span id="sound-label">Sound</span>
-      </button>
-      <button id="hz-readout" class="hud-telemetry" type="button" aria-live="polite" title="Live WebGL2 refresh rate — click to pause or resume animation">
-        120 Hz
-      </button>
-    </div>
-  </aside>
+  </main>
 
   <script defer src="layout/scripts/meadow.js"></script>
 </body>
